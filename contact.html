@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/Contactform.css">
+    <style>
+      /* Add background image to the form container */
+      .container {
+        background-image: url("images/airplane.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="travel.html">Travel</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+          <div class="full">
+            <div class="center-desk">
+              <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#"></a> </div>
+           </div>
+          </div>
+        </div>
+        <div class="testbox">
+          <form method="post" action="mailto:info.obtravels@gmail.com" enctype="multipart/form-data">
+            <div class="banner" >
+              <h1>Contact Us</h1>
+            </div>
+            <div class="colums">
+              <div class="item">
+                <label for="name">Name<span></span></label>
+                <input id="name" type="text" name="name" required/>
+              </div>
+              <div class="item">
+                <label for="state">State<span></span></label>
+                <input id="state" type="text" name="state" required/>
+              </div>
+              <div class="item">
+                <label for="zip">Zip/Postal Code<span></span></label>
+                <input id="zip" type="text" name="zip" required/>
+              </div>
+              <div class="item">
+                <label for="city">City<span></span></label>
+                <input id="city" type="text" name="city" required/>
+              </div>
+              <div class="item">
+                <label for="eaddress">Email Address<span></span></label>
+                <input id="eaddress" type="text" name="eaddress" required/>
+              </div>
+              <div class="item">
+                <label for="phone">Phone<span></span></label>
+                <input id="phone" type="tel" name="phone" required/>
+              </div>
+              <!-- Add the image input field -->
+            </div>
+            <div class="btn-block">
+              <button type="submit" href="/">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
